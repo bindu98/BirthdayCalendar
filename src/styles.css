@@ -1,0 +1,20 @@
+:root {
+  --clr-white: #fff;
+  --radius: 0.5rem;
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 90vw;
+  margin: 3rem 0;
+  background: var(--clr-white);
+  border-radius: var(--radius);
+  padding: 0.5rem 1rem;
+  box-shadow: var(--dark-shadow);
+}
